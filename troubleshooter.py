@@ -1,13 +1,14 @@
 import streamlit as st
 import requests
 import os
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 
 # Load environment variables from .env file
 # load_dotenv()
 
 # Set your Groq API key from environment variable or .env file
-GROQ_API_KEY = os.getenv("GROQ_API_KEY", "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")
+# GROQ_API_KEY = os.getenv("GROQ_API_KEY", "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")
+GROQ_API_KEY = "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"
 
 st.title("Tech Issue Assistant")
 st.markdown("Describe your technical issue and get a step-by-step solution.")
